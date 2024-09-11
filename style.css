@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;	
+	font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+.container{
+	display: flex;
+	justify-content: center;
+}
+.cabecalho{
+	border-top: solid 1px rgb(219,219,219);
+	border-bottom: solid 1px rgb(219,219,219);
+	height: 120px;	
+	justify-content: space-evenly;
+	align-items: center;
+}
+.logo{
+	background-image: url("/logo.jpg");	
+	width: 90px;
+	height: 90px;
+	background-size: cover;
+  border-radius: 100%;
+}
+.nome{
+  font-size: 3vw;
+  font-family: "Lucida Handwriting", cursive;
+}
+.pesquisa{
+	width: 268px;
+	height: 36px;
+	padding: 0 16px;
+	background-color: rgb( 239,239,239);
+	font-size: 16px;
+	justify-content: center;
+  border-style: outset;
+	border-radius: 6px;
+	display: inherit;
+}
+.pesq{	
+	height: 36px;
+	width: 100%;
+	position: relative;
+	background-color: transparent;
+	border: none;
+}
+.pesq:focus{
+	border: none;
+	border-color: transparent;
+}
+.log{
+	justify-content: space-between;
+	font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 600px;	
+	text-align: center;
+}
+.botao{
+	background: linear-gradient(90deg, rgba(46,213,208,1) 0%, rgba(241,51,173,1) 35%, rgba(255,241,84,1) 100%);;
+	cursor: pointer;
+	color: rgb(255, 255, 255);
+	border-radius: 8px;
+	padding: 7px 16px;
+}
+.avaliar{
+	display: none;
+	width: 300px;
+	height: 400px;
+	background-color: white;
+	position: absolute;
+	top: 25vh;
+	left: 42vw;
+}
+.rate{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.usuario{
+  widht: 250px;
+  height: 2px;
+}
+
+.senha{
+   widht: 250px;
+  height: 2px;
+}
